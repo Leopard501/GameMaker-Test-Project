@@ -1,1 +1,1 @@
-alarm_set(0, 20);
+alarm_set(0, fire_delay);

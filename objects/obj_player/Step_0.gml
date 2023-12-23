@@ -19,7 +19,7 @@ y += _move_direction.y;
 if (can_fire && keyboard_check(ord("Z"))) {
 	instance_create_layer(x, y, "Player_Bullets", obj_bullet_player);
 	can_fire = false;
-	alarm_set(0, 20);
+	alarm_set(0, fire_delay);
 }
 
 #endregion
