@@ -35,12 +35,16 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"obj_bullet_enemy","path":"objects/obj_bullet_enemy/obj_bullet_enemy.yy",},},
+    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_bullet_player","path":"sprites/spr_bullet_player/spr_bullet_player.yy",},},
     {"id":{"name":"lib_vectors","path":"scripts/lib_vectors/lib_vectors.yy",},},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_bullet_player","path":"objects/obj_bullet_player/obj_bullet_player.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_bullet_enemy","path":"sprites/spr_bullet_enemy/spr_bullet_enemy.yy",},},
     {"id":{"name":"room_main","path":"rooms/room_main/room_main.yy",},},
   ],
   "RoomOrderNodes": [
