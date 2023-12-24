@@ -5,4 +5,7 @@ with (_b1) {
 	direction = 180;
 	speed = 6;
 }
+
+audio_play_sound_ext({ sound: snd_enemy_fire }); 
+
 alarm_set(0, fire_delay);

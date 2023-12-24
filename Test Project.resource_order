@@ -26,6 +26,10 @@
     {"name":"spr_bullet_player","order":1,"path":"sprites/spr_bullet_player/spr_bullet_player.yy",},
     {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_bullet_player","order":1,"path":"objects/obj_bullet_player/obj_bullet_player.yy",},
+    {"name":"snd_enemy_hurt","order":2,"path":"sounds/snd_enemy_hurt/snd_enemy_hurt.yy",},
+    {"name":"snd_enemy_fire","order":3,"path":"sounds/snd_enemy_fire/snd_enemy_fire.yy",},
     {"name":"spr_bullet_enemy","order":4,"path":"sprites/spr_bullet_enemy/spr_bullet_enemy.yy",},
+    {"name":"snd_player_fire","order":1,"path":"sounds/snd_player_fire/snd_player_fire.yy",},
+    {"name":"snd_enemy_super","order":4,"path":"sounds/snd_enemy_super/snd_enemy_super.yy",},
   ],
 }

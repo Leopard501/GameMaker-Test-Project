@@ -18,6 +18,7 @@ y += _move_direction.y;
 
 if (can_fire && keyboard_check(ord("Z"))) {
 	instance_create_layer(x, y, "Player_Bullets", obj_bullet_player);
+	audio_play_sound_ext({ sound: snd_player_fire });
 	can_fire = false;
 	alarm_set(0, fire_delay);
 }

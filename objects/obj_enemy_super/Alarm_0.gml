@@ -16,5 +16,6 @@ with (_b3) {
 	speed = 6;
 }
 
+audio_play_sound_ext({ sound: snd_enemy_super }); 
 
 alarm_set(0, fire_delay);
