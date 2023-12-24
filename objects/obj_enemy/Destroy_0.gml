@@ -1,0 +1,1 @@
+part_particles_create(global.P_System, x, y, global.small_explosion, 50);
