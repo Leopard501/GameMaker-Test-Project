@@ -9,12 +9,12 @@ function Wave(_delay, _spawns, _track = undefined) constructor {
 }
 
 function Start_Music(_track) {
-	if (_track != undefined && _track != current_track) {
-		if (current_track != undefined) {
-			audio_stop_sound(current_track);
+	if (_track != undefined && _track != global.current_track) {
+		if (global.current_track != undefined) {
+			audio_stop_sound(global.current_track);
 		}
-		current_track = _track;
-		audio_play_sound(current_track, 0, true);
+		global.current_track = _track;
+		audio_play_sound(global.current_track, 0, true);
 	}	
 }
 
@@ -26,122 +26,11 @@ waves = [
 		obj_enemy,
 		obj_enemy,
 		obj_enemy,
-	]),
-	new Wave(40, [
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-	]),
-	new Wave(80, [
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super
-	]),
-	new Wave(30, [
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-	]),
-	new Wave(80, [
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy_super,
 	], snd_music_fight3),
-	new Wave(60, [
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy_super,
-	]),
-	new Wave(30, [
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-	]), 
-	new Wave(20, [
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy,
-	], snd_music_fight2), 
-	new Wave(10, [
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy_super,
-		obj_enemy,
-		obj_enemy,
-		obj_enemy_super,
-		obj_enemy,
-	]),
+
 ];
 
-current_track = undefined;
+global.current_track = undefined;
 
 wave_idx = 0;
 spawn_idx = 0;

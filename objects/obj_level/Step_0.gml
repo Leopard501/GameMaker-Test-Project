@@ -4,7 +4,6 @@ if (!instance_exists(obj_enemy) && !instance_exists(obj_enemy_super) && alarm_ge
 	// advance wave
 	spawn_idx = 0;
 	wave_idx++;
-	Start_Music(waves[wave_idx].track);
 	if (wave_idx < array_length(waves)) {
 		// reset timer
 		alarm_set(0, waves[wave_idx].delay);
@@ -13,4 +12,5 @@ if (!instance_exists(obj_enemy) && !instance_exists(obj_enemy_super) && alarm_ge
 		wave_idx = 0;
 		alarm_set(0, waves[wave_idx].delay);
 	}
+	Start_Music(waves[wave_idx].track);
 }
