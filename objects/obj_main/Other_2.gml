@@ -1,4 +1,4 @@
-global.P_System=part_system_create_layer("Particles", true);
+global.P_System = part_system_create_layer("Particles", true);
 
 global.small_explosion = part_type_create();
 part_type_shape(global.small_explosion, pt_shape_flare);
