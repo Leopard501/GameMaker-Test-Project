@@ -1,6 +1,6 @@
 /// @description Fire
 
-if (x > room_width + sprite_get_width(sprite_index) * scale) {
+if (x > room_width + sprite_get_width(sprite_index)) {
 	exit;	
 }
 

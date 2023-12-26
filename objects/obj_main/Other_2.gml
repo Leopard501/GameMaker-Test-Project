@@ -19,3 +19,5 @@ part_type_speed(global.large_explosion, 5, 10, 0, 0);
 part_type_direction(global.large_explosion, 0, 360, 0, 0);
 part_type_blend(global.large_explosion, true);
 part_type_life(global.large_explosion, 20, 40);
+
+display_reset(4, false);
