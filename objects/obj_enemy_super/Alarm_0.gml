@@ -1,5 +1,9 @@
 /// @description Super fire
 
+if (x > room_width + sprite_get_width(sprite_index) * scale) {
+	exit;	
+}
+
 var _b1 = instance_create_layer(x, y, "Enemy_Bullets", obj_bullet_enemy);
 with (_b1) {
 	direction = 150;

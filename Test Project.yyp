@@ -37,6 +37,7 @@
   "resources": [
     {"id":{"name":"obj_enemy_super","path":"objects/obj_enemy_super/obj_enemy_super.yy",},},
     {"id":{"name":"obj_bullet_enemy","path":"objects/obj_bullet_enemy/obj_bullet_enemy.yy",},},
+    {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"obj_main","path":"objects/obj_main/obj_main.yy",},},
     {"id":{"name":"spr_enemy_super","path":"sprites/spr_enemy_super/spr_enemy_super.yy",},},
